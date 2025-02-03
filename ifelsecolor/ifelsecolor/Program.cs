@@ -14,7 +14,6 @@
             {
                 Console.WriteLine("you dont have this color!");
             }
-
         }
     }
 }

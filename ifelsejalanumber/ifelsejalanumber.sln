@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ifelsejalanumber", "ifelsejalanumber\ifelsejalanumber.csproj", "{93C6BBBF-3906-4B12-A05D-34850D1890EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93C6BBBF-3906-4B12-A05D-34850D1890EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C6BBBF-3906-4B12-A05D-34850D1890EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C6BBBF-3906-4B12-A05D-34850D1890EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C6BBBF-3906-4B12-A05D-34850D1890EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AB2A926-48B3-44EB-AB5D-FEABC71D1E7B}
+	EndGlobalSection
+EndGlobal
