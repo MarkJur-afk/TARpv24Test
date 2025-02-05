@@ -1,0 +1,35 @@
+namespace Kohvikswitch
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Fantaasia kohvik!");
+            Console.WriteLine("\n\nMenüü (kohvi valik)\n\n");
+            Console.WriteLine("1. Väike tass"); // 1.5
+            Console.WriteLine("2. Keskmine tass"); // 2.5
+            Console.WriteLine("3. Suur tass"); // 3
+            Console.WriteLine("\n\nPalun tee valik numbriga:");
+            string number = Console.ReadLine();
+
+            switch (number)
+            {
+                case "1":
+                    Console.WriteLine("sina saad väike taas / price 1.5");
+                    break;
+
+                case "2":
+                    Console.WriteLine("sina saad keskmine taas / price 2.5");
+                    break;
+
+                case "3":
+                    Console.WriteLine("sina saad suur taas / price 3");
+                    break;
+
+                default:
+                    Console.WriteLine("teed vale valik");
+                    break;
+            }
+        }   
+     }
+}
