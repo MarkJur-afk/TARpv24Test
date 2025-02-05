@@ -18,7 +18,7 @@ namespace RndomNumbers
                     break;
 
                 case 2:
-                    Console.WriteLine("you got ");
+                    Console.WriteLine("you got 2");
                     break;
 
                 case 3:
