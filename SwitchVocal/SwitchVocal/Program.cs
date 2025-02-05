@@ -1,4 +1,4 @@
-﻿namespace SwitchColor
+﻿namespace SwitchVocal
 {
     internal class Program
     {
@@ -8,7 +8,7 @@
 
             Console.WriteLine("Kirjuta mis värv sin tahad: green, red, white või orange");
             string värv = Console.ReadLine();
-
+            
 
             switch (värv)
             {
@@ -23,7 +23,7 @@
                 case "white":
                     Console.WriteLine("colour White");
                     break;
-
+                
                 case "orange":
                     Console.WriteLine("colour Orange");
                     break;
