@@ -42,7 +42,7 @@ namespace Calculator
             {
                 if (secondNr == 0)
                 {
-                    Console.WriteLine("Error: Division by zero is not allowed.");
+                    Console.WriteLine("Error");
                 }
                 else
                 {
@@ -52,7 +52,7 @@ namespace Calculator
             }
             else
             {
-                Console.WriteLine("Invalid calculation type.");
+                Console.WriteLine("Invalid calculation");
             }
         }
     }
